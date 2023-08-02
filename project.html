@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="project.css" rel="stylesheet">
+    <title>Cook List</title>
+</head>
+
+<body>
+    <main>
+        <section class="heading">
+            <header class="title">
+                <h1 class="heading-title">
+                    Cook List
+                </h1>
+                <p class="heading-subtitle">
+                    CookList is an app that provides you with recipes and generates a grocery list based on the
+                    ingredients you need, simplifying your meal planning and shopping experience.
+                </p>
+            </header>
+        </section>
+
+        <section class="search-recipe">
+            <form action="/search" method="get">
+                <label for="search-input">Search for recipe:</label>
+                <input type="search" id="search-input" name="q" placeholder="e.g. spaghetti bolognese">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section class="body">
+            <div class="grocery-list">
+                <ul style="list-style-type: none">
+                    <li><a href="grocerylist.html">Create your own Grocery List</a></li>
+                    <li><a href="savedlist.html">Saved Lists</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="suggestions">
+            <div class="list-suggestion">
+                <h3 class="suggestions-title">Suggestions</h3>
+                <ul class="popular">
+                    <li <a id="suggested-recipe" href="">Spaghetti Bolognese</a></li>
+                    <li <a id="suggested-recipe" href="">Pad Thai</a></li>
+                    <li <a id="suggested-recipe" href="">Butter Chicken</a></li>
+                    <li <a id="suggested-recipe" href="">Chicken Alfredo</a></li>
+                    <li <a id="suggested-recipe" href="">Cheddar Brocolli Soup</a></li>
+                    <li <a id="suggested-recipe" href="">Chicken Fried Rice</a></li>
+                    <li <a id="suggested-recipe" href="">Hummus</a></li>
+                    <li <a id="suggested-recipe" href="">Tiramisu</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
